@@ -1,0 +1,21 @@
+# Ignore backend build files
+/hotel-backend/target/
+/hotel-backend/src/main/resources/application.properties
+
+# Ignore frontend build files and node_modules
+/hotel-project-react/node_modules/
+/hotel-project-react/build/
+/hotel-project-react/dist/
+
+# Ignore environment files
+*.log
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
